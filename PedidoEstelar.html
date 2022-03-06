@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-with, initial-scale=1.0">
+    <title>Pedido Estelar</title>
+</head>
+<body>
+    <h1>Pasteleria Space Cake</h1>
+    <img src="./assets/Cake Space.png" alt="Logo SpaceCake" width="250px" height="200px">
+
+    <br><hr><br>
+
+    <h2>Pedido Estelar</h2>
+
+    <form action="pedido.js">
+        
+        <label for="Nombre">Nombre del Cliente Estelar (su nombre):</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
+
+        
+        <label for="correo1">Correo electronico</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+
+        <label for="tel1">Telefono local o celular</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10" minlength="7"><br><br>
+
+        <label for="num1">¿Cuantos pasteles va a querer?</label><br>
+        <input type="number" id="num1" name="num1" placeholder="num1"><br><br>
+
+        <input type="radio" id="chico" name="tamaño" value="chico">
+        <label for="chico">Chico</label><br><br>
+        <input type="radio" id="Mediano o Familiar" name="tamaño" value="Mediano o Familiar">
+        <label for="Mediano o Familiar">Mediano o Familiar</label><br><br>
+        <input type="radio" id="XL" name="tamaño" value="XL">
+        <label for="XL">XL</label><br><br><br>
+
+        <hr>
+
+        <h3> Sabores y Complementos</h3>
+        <p>puede elegir cualquier sabor que desee<br>   
+         se combinaran los sabores en forma equivalente</p><br>
+        
+         <h3>Sabores</h3>
+         <br>
+
+         <input type="checkbox" id="box1" name="box1">
+         <label for="box1">Pastel de Chocolate</label><br><br>
+     
+         <input type="checkbox" id="box2" name="box2">
+         <label for="box2">Pastel de Vainilla</label><br><br>
+     
+         <input type="checkbox" id="box3" name="box3">
+         <label for="box3">Pastel de Fresa</label><br><br>
+
+         <input type="checkbox" id="box4" name="box4">
+         <label for="box3">Pastel de 3 Leches</label><br><br>
+
+         <h3>Complementos</h3>
+         <br>
+
+         <input type="checkbox" id="box1" name="box1">
+         <label for="box1">M&M´s</label><br><br>
+     
+         <input type="checkbox" id="box2" name="box2">
+         <label for="box2">Gomitas de oso</label><br><br>
+     
+         <input type="checkbox" id="box3" name="box3">
+         <label for="box3">Ojuelas de chocolate</label><br><br>
+
+         <input type="checkbox" id="box4" name="box4">
+         <label for="box3">Nuez</label><br><br>
+
+         <input type="checkbox" id="box4" name="box4">
+         <label for="box3">Cacahuate</label><br><br>
+
+         <hr>
+
+         <input type="reset"><br><br>
+         <input type="button" id="boton1" name="boton1" value="Enviar" onclick="alert('¡Pedido con Exito!');"><br><br>
+    </form>
+
+
+
+
+    <br><br><br><br><br><br><br>
+</body>
